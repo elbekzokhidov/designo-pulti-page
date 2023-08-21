@@ -1,0 +1,97 @@
+.bg {
+  background-image: url("../images/Rectangle.svg");
+  background-position: left top 320px;
+  background-repeat: no-repeat;
+}
+.about-hero__container {
+  padding-bottom: 16rem;
+}
+.about-hero-bg {
+  background-color: $peach-color;
+  align-items: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../images/about-oval.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.about-hero__content {
+  margin-left: 9.5rem;
+  width: 100%;
+  max-width: 540px;
+}
+.about-hero__title {
+  color: $white-color;
+  margin-bottom: 3.2rem;
+}
+.about-hero__description {
+  width: 100%;
+  max-width: 458px;
+  color: $white-color;
+  font-size: 16px;
+}
+.heromen__container {
+  padding-bottom: 16rem;
+}
+.heromen-bg {
+  background-image: url("../images/about-oval2.svg");
+  background-repeat: no-repeat;
+  background-position: center top 300px;
+  align-items: center;
+  display: flex;
+  background-color: $web-content-bg-color;
+  border-radius: 15px;
+}
+.heromen__content {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  max-width: 445px;
+}
+.heromen__title {
+  color: $peach-color;
+  margin-bottom: 2.4rem;
+}
+.heromen__description {
+  color: $black-two-color;
+  font-size: 16px;
+}
+
+.about-map {
+  background-image: url("../images/Rectangle.svg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+.about-map__container {
+  padding-bottom: 16rem;
+}
+
+.about-map__list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.about-map__img {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 4.8rem;
+}
+.about-map__title {
+  margin-bottom: 3.2rem;
+  color: $black-two-color;
+  width: 350px;
+}
+
+
+.order {
+  order: 1;
+}
+
+.about-bg {
+  background-image: url("../images/about-oval3.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}

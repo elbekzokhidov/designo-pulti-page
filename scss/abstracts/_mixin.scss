@@ -1,0 +1,14 @@
+@mixin font($fs, $fw, $lh, $ls) {
+  font-size: $fs;
+  font-weight: $fw;
+  line-height: $lh;
+  letter-spacing: $ls;
+}
+@mixin buttons($pt, $pb, $pl, $pr, $c, $bg) {
+  padding-top: $pt;
+  padding-bottom: $pb;
+  padding-left: $pl;
+  padding-right: $pr;
+  color: $c;
+  background-color: $bg;
+}

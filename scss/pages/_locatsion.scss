@@ -1,0 +1,47 @@
+
+.locations__container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding-bottom: 16rem;
+}
+.map1__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.map1__content {
+  padding-top: 8.8rem;
+  padding-bottom: 8.8rem;
+  margin-left: 9.5rem;
+}
+.padding {
+  background-image: url("../images/about-oval2.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+
+  border-radius: 15px;
+  background-color: $web-content-bg-color;
+  width: 100%;
+  max-width: 730px;
+}
+.map1__title {
+  margin-bottom: 2.4rem;
+  color: $peach-color;
+}
+.map1__text {
+  font-size: 16px;
+  color: $black-two-color;
+}
+.map1__description {
+  font-size: 16px;
+  color: $black-two-color;
+}
+.description-and-text {
+  display: flex;
+  gap: 11rem;
+}
+
+.locations-order {
+  order: 1;
+}
